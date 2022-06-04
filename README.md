@@ -5,9 +5,8 @@
 [운영체제의 현재 상태를 나타내주는 CLI 어플리케이션(명령어 인터페이스)]
 
 ##인터페이스 레이아웃 (예시) 
+```
 top - 15:32:30 up  4:33,  0 users,  load average: 0.00, 0.00, 0.00
-
-
 Tasks:  10 total,   1 running,   9 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 MiB Mem :  12686.9 total,  10952.5 free,    646.0 used,   1088.4 buff/cache
@@ -23,7 +22,7 @@ MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.  11428.4 avail Mem
   263 root      20   0     896     84     20 S   0.0   0.0   0:00.00 init
   264 user 20   0   10168   5188   3424 S   0.0   0.0   0:00.02 bash
 277 user 20   0   10872   3716   3204 R   0.0   0.0   0:00.00 top
-
+```
 ## 영역 설명 (왼쪽 상단부터 차례대로)
 시스템 현재 시간, 운영체제 동작 시간, 유저 세션 수, Load Average
 Tasks 
