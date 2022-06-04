@@ -6,6 +6,8 @@
 
 ##인터페이스 레이아웃 (예시) 
 top - 15:32:30 up  4:33,  0 users,  load average: 0.00, 0.00, 0.00
+
+
 Tasks:  10 total,   1 running,   9 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 MiB Mem :  12686.9 total,  10952.5 free,    646.0 used,   1088.4 buff/cache
