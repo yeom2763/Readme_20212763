@@ -24,10 +24,15 @@ MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.  11428.4 avail Mem
 ```
 
 ## top 레이아웃 설명 (왼쪽 상단부터 차례대로)
+
 시스템 현재 시간, 운영체제 동작 시간, 유저 세션 수, Load Average
+
 Tasks 
+
 %CPU(s)
+
 Memory
+
 디테일 영역
 
 ## top 영역별 설명
