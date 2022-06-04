@@ -41,7 +41,7 @@ Memory
   * CPU Load의 이동 평균을 의미합니다.
 
 * Task
-  * 현재 프로세스들의 상태를 나타냅니다.
+  * 현재 프로세스들의 상태를 나타냅니다. 
   * total, running, sleeping, stopped, zombies로 분류는 프로세스의 수를 나타냅니다.
 
 * %CPU(s)
@@ -126,9 +126,9 @@ PID TTY          TIME CMD
 ## ps 실행 옵션 
 
 * -e: 모든 프로세스를 출력해 준다.
-* 
+
 * -f: 풀 포맷으로 보여준다.(UID, PID 등)
-* 
+
 * -l: 긴 포맷으로 보여준다.
 
 * p, -p: 특정 PID의 프로세스를 보여준다.
