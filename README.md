@@ -168,7 +168,7 @@ PID TTY          TIME CMD
 [프로세스에 특정 signal을 보내며, 주로 종료 시 사용됩니다.]
 
 ## kill 옵션
-* -l: signal의 종료를 확인합니다.
+* -l: signal의 종류를 확인합니다.
 
 ## $kill -[signal option num or name] PID
 ```
@@ -193,4 +193,25 @@ ex) $kill -9 1234 or $kill -SIGKILL 1234
 
 ## vim 매크로 사용 방법
 
+vi 에디터의 매크로 사용 flow는 다음과 같습니다.
 
+1. recording 시작하기
+  q + [name] 를 입력하여 recording을 시작합니다.
+2. 키조합 입력하기.
+  원하는 키조합을 입력하여 기록합니다.
+3. 매크로 실행하기
+  @[name], @@, [num]@[name]을 입력하여 매크로를 실행합니다.
+
+## 매크로 실행 명령어
+
+* @[name]
+
+  * 매크로를 1회 실행합니다.   
+  
+* @@
+
+  * 방금 실행한 매크로를 실햄합니다.
+  
+* [num]@[name]
+
+  * 매크로를 num 횟수만큼 실행합니다.
