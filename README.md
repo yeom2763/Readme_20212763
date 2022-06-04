@@ -37,18 +37,18 @@ Memory
 
 ## top 영역별 설명
 
-Load Average
-CPU Load의 이동 평균을 의미합니다.
+* Load Average
+  * CPU Load의 이동 평균을 의미합니다.
 
-Task
-현재 프로세스들의 상태를 나타냅니다.
-total, running, sleeping, stopped, zombies로 분류는 프로세스의 수를 나타냅니다.
+* Task
+  * 현재 프로세스들의 상태를 나타냅니다.
+  * total, running, sleeping, stopped, zombies로 분류는 프로세스의 수를 나타냅니다.
 
-%CPU(s)
-CPU가 어떻게 사용되고 있는지 사용률을 나타냅니다. 총합은 100입니다.
-각 영역은 us, sy, ni, id, wa, hi, si, st로 나뉩니다.
-이 영역 아래의 영역은 메모리의 사용량을 나타냅니다.
-메모리 사용량은 total, free, used로 분류됩니다.
+* %CPU(s)
+  * CPU가 어떻게 사용되고 있는지 사용률을 나타냅니다. 총합은 100입니다.
+  각 영역은 us, sy, ni, id, wa, hi, si, st로 나뉩니다.
+  이 영역 아래의 영역은 메모리의 사용량을 나타냅니다.
+  메모리 사용량은 total, free, used로 분류됩니다.
 
 PID
 프로세스를 구분하기 위해 겹치지 않는 고유값
