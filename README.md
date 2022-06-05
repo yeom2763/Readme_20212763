@@ -196,19 +196,15 @@ ex) $kill -9 1234 or $kill -SIGKILL 1234
 vi 에디터의 매크로 사용 flow는 다음과 같습니다.
 
 1. recording 시작하기
-
   커맨드 모드에서 q + [name] 를 입력하여 recording을 시작합니다.
   
 2. 키조합 입력하기.
-
   원하는 키조합을 입력하여 기록합니다.
   
 3. recording 종료하기
-
   키조합을 입력 후 커맨드 모드로 돌아와 'q'를 눌러 recording을 종료합니다.
   
 4. 매크로 실행하기
-
   @[name], @@, [num]@[name]을 입력하여 매크로를 실행합니다.
   
 
