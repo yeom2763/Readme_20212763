@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
-public class aa{
+// "Work_1.java"...
+
+public class Work_1{
         // 예약, 조회, 취소, 끝내기...
 
 // S, A, B ... Each seat class have 10...
